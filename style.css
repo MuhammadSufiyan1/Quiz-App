@@ -1,0 +1,124 @@
+body{
+    background: aqua;
+    overflow: hidden;
+}
+.content{ 
+    margin-top:54px; 
+}
+.fom{
+    display: flex !important;
+}
+.container-fluid{
+    margin-left: 520px;
+}
+#qa.form-check-input{
+    margin-left: -30px;
+    
+}
+#qb.form-check-input{
+    margin-left: -30px;
+}
+#qc.form-check-input{
+    margin-left: -30px;
+}
+#qd.form-check-input{
+    margin-left: -30px;
+}
+.quiz-form input{
+    background: red;
+}
+.form-check.option-block{
+    border: 2px solid black;
+    box-shadow: 5px 15px 50px black;
+    margin-top: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.form-check.option-block:hover{
+
+    background: aqua;
+    transition: 1s;
+}
+#next.btn.btn-success{
+    font-weight: bold;
+    color: black !important;
+    background: yellow;
+    border: 2px solid black;
+    padding: 5px 10px 10px 7px;
+    border-radius: 10px;
+    opacity: 100%;
+
+}
+#previous.btn.btn-success{
+    font-weight: bold;
+    color: black !important;
+    background: yellow;
+    border: 2px solid black;
+    padding: 5px 10px 10px 7px;
+    border-radius: 10px;
+    opacity: 100%;
+}
+.header{
+    padding:15px;
+    position:fixed;
+    top:0; 
+    width:100%; 
+    z-index:9999; 
+}
+.left-title{ 
+    width:80px; 
+    color:#FFF; 
+    font-size:18px; 
+    float:left; 
+}
+.right-title { 
+    width:150px; 
+    text-align:right; 
+    float:right; 
+    color:#FFF;  
+}
+.quiz-body{ 
+    margin-top:15px; 
+    padding-bottom:50px; 
+}
+.option-block-container
+{ 
+    margin-top:20px; 
+    max-width:420px; 
+}
+.option-block{ 
+    padding:10px; 
+    background:aliceblue; 
+    border:1px solid #84c5fe; 
+    margin-bottom:10px; 
+    cursor:pointer; 
+}
+.result-question{ 
+    font-weight:bold; 
+}
+.c-wrong{ 
+    margin-left:20px; 
+    color:#FF0000; 
+}
+.c-correct{  
+    margin-left:20px; 
+    color:green; 
+}
+.last-row{ 
+    border-bottom:1px solid #ccc; 
+    padding-bottom:25px; 
+    margin-bottom:25px; 
+}
+.res-header{ 
+    border-bottom:1px solid #ccc; 
+    margin-bottom:15px; 
+    padding-bottom:15px; 
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .container-fluid{
+        margin-left:0px;
+       
+    }
+  }
